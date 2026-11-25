@@ -55,6 +55,10 @@ tests/                      notebook, solution, card and app tests
 
 An open, Arabic-first AI curriculum for ages 6–18: an unplugged track for ages 6–9 with printable cards, and a four-term Python/ML track for ages 15–18 with tested Colab notebooks (including Egyptian-Arabic NLP). See the [English overview](docs/en.md).
 
+## Roadmap
+
+Classroom pilots, a full English edition, a 10–14 middle track, and a card editor. See [ROADMAP.md](ROADMAP.md).
+
 ## Contributing
 
 Teachers' classroom reports, translations, new card decks, and notebooks are all welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) and our [Code of Conduct](CODE_OF_CONDUCT.md).
