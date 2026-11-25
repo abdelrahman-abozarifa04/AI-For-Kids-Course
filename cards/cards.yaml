@@ -1,0 +1,131 @@
+# Card decks for the Kids track (ages 6-9).
+# Build printable sheets with:  python tools/build_cards.py
+#
+# Each deck:   id, title_ar, title_en, color (hex), session (which session uses it), cards[]
+# Each card:   id (unique), emoji, ar, en, and optional: hint_ar, answer_ar, tags{}
+# Content license: CC BY 4.0 — see LICENSE-CONTENT.md
+
+decks:
+  - id: ai-or-not
+    title_ar: ذكي ولا مش ذكي؟
+    title_en: AI or Not?
+    color: "#4F46E5"
+    session: 1
+    cards:
+      - {id: "aon-01", emoji: "🧮", ar: "آلة حاسبة", en: "Calculator", answer_ar: "مش ذكاء اصطناعي: بتنفّذ أوامر ثابتة", tags: {ai: false}}
+      - {id: "aon-02", emoji: "🗣️", ar: "مساعد صوتي", en: "Voice assistant", answer_ar: "ذكاء اصطناعي: بيفهم كلامك", tags: {ai: true}}
+      - {id: "aon-03", emoji: "💡", ar: "لمبة", en: "Lamp", answer_ar: "مش ذكاء اصطناعي: بتنور وبتطفي بس", tags: {ai: false}}
+      - {id: "aon-04", emoji: "🗺️", ar: "تطبيق الخرايط", en: "Maps app", answer_ar: "ذكاء اصطناعي: بيختار أسرع طريق", tags: {ai: true}}
+      - {id: "aon-05", emoji: "🚲", ar: "عجلة", en: "Bicycle", answer_ar: "مش ذكاء اصطناعي: إنت اللي بتسوقها", tags: {ai: false}}
+      - {id: "aon-06", emoji: "📱", ar: "موبايل بيفتح بالوش", en: "Face unlock", answer_ar: "ذكاء اصطناعي: بيتعرف على وشك", tags: {ai: true}}
+      - {id: "aon-07", emoji: "🧸", ar: "دبدوب", en: "Teddy bear", answer_ar: "مش ذكاء اصطناعي: لعبة عادية", tags: {ai: false}}
+      - {id: "aon-08", emoji: "🤖", ar: "مكنسة روبوت", en: "Robot vacuum", answer_ar: "ذكاء اصطناعي: بتتعلم شكل الأوضة", tags: {ai: true}}
+      - {id: "aon-09", emoji: "📺", ar: "تطبيق بيقترح كرتون", en: "Cartoon recommender", answer_ar: "ذكاء اصطناعي: بيتعلم إنت بتحب إيه", tags: {ai: true}}
+      - {id: "aon-10", emoji: "⏰", ar: "منبه", en: "Alarm clock", answer_ar: "مش ذكاء اصطناعي: بيرن في وقت ثابت", tags: {ai: false}}
+      - {id: "aon-11", emoji: "🌐", ar: "تطبيق ترجمة", en: "Translation app", answer_ar: "ذكاء اصطناعي: بيترجم جمل جديدة", tags: {ai: true}}
+      - {id: "aon-12", emoji: "🫖", ar: "كاتل", en: "Kettle", answer_ar: "مش ذكاء اصطناعي: بيغلي المية بس", tags: {ai: false}}
+
+  - id: commands
+    title_ar: كروت الأوامر
+    title_en: Command Cards
+    color: "#059669"
+    session: 2
+    cards:
+      - {id: "cmd-01", emoji: "⬆️", ar: "امشي خطوة لقدام", en: "Step forward"}
+      - {id: "cmd-02", emoji: "⬇️", ar: "ارجع خطوة لورا", en: "Step back"}
+      - {id: "cmd-03", emoji: "↪️", ar: "لف يمين", en: "Turn right"}
+      - {id: "cmd-04", emoji: "↩️", ar: "لف شمال", en: "Turn left"}
+      - {id: "cmd-05", emoji: "🙋", ar: "ارفع إيدك", en: "Raise your hand"}
+      - {id: "cmd-06", emoji: "👏", ar: "صقّف", en: "Clap"}
+      - {id: "cmd-07", emoji: "🪑", ar: "اقعد", en: "Sit down"}
+      - {id: "cmd-08", emoji: "🧍", ar: "اقف", en: "Stand up"}
+      - {id: "cmd-09", emoji: "🔁", ar: "كرر مرتين", en: "Repeat twice", hint_ar: "حطها قبل الأمر اللي عايز تكرره"}
+      - {id: "cmd-10", emoji: "🛑", ar: "استنى", en: "Stop and wait"}
+      - {id: "cmd-11", emoji: "🎒", ar: "امسك الحاجة", en: "Pick it up"}
+      - {id: "cmd-12", emoji: "🏁", ar: "النهاية", en: "End"}
+
+  - id: patterns
+    title_ar: كمّل النمط
+    title_en: Complete the Pattern
+    color: "#D97706"
+    session: 3
+    cards:
+      - {id: "pat-01", emoji: "🔴🔵🔴🔵❓", ar: "إيه اللي بعده؟", en: "What comes next?", answer_ar: "🔴"}
+      - {id: "pat-02", emoji: "⭐⭐🌙⭐⭐❓", ar: "إيه اللي بعده؟", en: "What comes next?", answer_ar: "🌙"}
+      - {id: "pat-03", emoji: "🍎🍌🍇🍎🍌❓", ar: "إيه اللي بعده؟", en: "What comes next?", answer_ar: "🍇"}
+      - {id: "pat-04", emoji: "1️⃣2️⃣3️⃣1️⃣2️⃣❓", ar: "إيه اللي بعده؟", en: "What comes next?", answer_ar: "3️⃣"}
+      - {id: "pat-05", emoji: "🐱🐶🐶🐱🐶❓", ar: "إيه اللي بعده؟", en: "What comes next?", answer_ar: "🐶"}
+      - {id: "pat-06", emoji: "🟩🟨🟩🟨🟩❓", ar: "إيه اللي بعده؟", en: "What comes next?", answer_ar: "🟨"}
+      - {id: "pat-07", emoji: "☀️🌧️☀️🌧️☀️❓", ar: "إيه اللي بعده؟", en: "What comes next?", answer_ar: "🌧️"}
+      - {id: "pat-08", emoji: "2️⃣4️⃣6️⃣8️⃣❓", ar: "إيه اللي بعده؟", en: "What comes next?", answer_ar: "🔟", hint_ar: "للأطفال الأكبر: بنزوّد ٢ كل مرة"}
+
+  - id: fruits
+    title_ar: فواكه وخضار
+    title_en: Fruits & Vegetables
+    color: "#DC2626"
+    session: 4
+    cards:
+      - {id: "fru-01", emoji: "🍎", ar: "تفاحة حمرا", en: "Red apple", tags: {color: أحمر, shape: مدور, kind: فاكهة}}
+      - {id: "fru-02", emoji: "🍏", ar: "تفاحة خضرا", en: "Green apple", tags: {color: أخضر, shape: مدور, kind: فاكهة}}
+      - {id: "fru-03", emoji: "🍌", ar: "موزة", en: "Banana", tags: {color: أصفر, shape: طويل, kind: فاكهة}}
+      - {id: "fru-04", emoji: "🍊", ar: "برتقانة", en: "Orange", tags: {color: برتقاني, shape: مدور, kind: فاكهة}}
+      - {id: "fru-05", emoji: "🍋", ar: "لمونة", en: "Lemon", tags: {color: أصفر, shape: مدور, kind: فاكهة}}
+      - {id: "fru-06", emoji: "🍉", ar: "بطيخة", en: "Watermelon", tags: {color: أخضر, shape: مدور, kind: فاكهة}}
+      - {id: "fru-07", emoji: "🍇", ar: "عنب", en: "Grapes", tags: {color: بنفسجي, shape: مدور, kind: فاكهة}}
+      - {id: "fru-08", emoji: "🍓", ar: "فراولة", en: "Strawberry", tags: {color: أحمر, shape: مدور, kind: فاكهة}}
+      - {id: "fru-09", emoji: "🥕", ar: "جزرة", en: "Carrot", tags: {color: برتقاني, shape: طويل, kind: خضار}}
+      - {id: "fru-10", emoji: "🍅", ar: "طماطماية", en: "Tomato", tags: {color: أحمر, shape: مدور, kind: خضار}}
+      - {id: "fru-11", emoji: "🥒", ar: "خيارة", en: "Cucumber", tags: {color: أخضر, shape: طويل, kind: خضار}}
+      - {id: "fru-12", emoji: "🍆", ar: "بتنجانة", en: "Eggplant", tags: {color: بنفسجي, shape: طويل, kind: خضار}}
+
+  - id: zozo
+    title_ar: مين زوزو؟
+    title_en: Who is a Zozo?
+    color: "#7C3AED"
+    session: 5
+    # Secret rule for the teacher: a "Zozo" has exactly THREE eyes. Color and hat do not matter.
+    cards:
+      - {id: "zoz-01", emoji: "🟢👁️👁️👁️", ar: "كائن أخضر بتلات عيون", en: "Green, 3 eyes", tags: {zozo: true}}
+      - {id: "zoz-02", emoji: "🟣👁️👁️👁️🎩", ar: "كائن بنفسجي بتلات عيون وبرنيطة", en: "Purple, 3 eyes, hat", tags: {zozo: true}}
+      - {id: "zoz-03", emoji: "🔵👁️👁️👁️", ar: "كائن أزرق بتلات عيون", en: "Blue, 3 eyes", tags: {zozo: true}}
+      - {id: "zoz-04", emoji: "🟠👁️👁️👁️🎀", ar: "كائن برتقاني بتلات عيون وفيونكة", en: "Orange, 3 eyes, bow", tags: {zozo: true}}
+      - {id: "zoz-05", emoji: "🟢👁️👁️", ar: "كائن أخضر بعينين", en: "Green, 2 eyes", tags: {zozo: false}}
+      - {id: "zoz-06", emoji: "🟣👁️", ar: "كائن بنفسجي بعين واحدة", en: "Purple, 1 eye", tags: {zozo: false}}
+      - {id: "zoz-07", emoji: "🔵👁️👁️🎩", ar: "كائن أزرق بعينين وبرنيطة", en: "Blue, 2 eyes, hat", tags: {zozo: false}}
+      - {id: "zoz-08", emoji: "🟠👁️👁️👁️👁️", ar: "كائن برتقاني بأربع عيون", en: "Orange, 4 eyes", tags: {zozo: false}}
+      - {id: "zoz-09", emoji: "🟡👁️👁️👁️", ar: "كائن أصفر بتلات عيون", en: "Yellow, 3 eyes", tags: {zozo: true, test: true}}
+      - {id: "zoz-10", emoji: "🟡👁️👁️", ar: "كائن أصفر بعينين", en: "Yellow, 2 eyes", tags: {zozo: false, test: true}}
+
+  - id: animals
+    title_ar: كروت الحيوانات
+    title_en: Animal Cards
+    color: "#0891B2"
+    session: 7
+    cards:
+      - {id: "ani-01", emoji: "🐱", ar: "قطة", en: "Cat", tags: {fur: true, flies: false, water: false, legs: 4, pet: true}}
+      - {id: "ani-02", emoji: "🐶", ar: "كلب", en: "Dog", tags: {fur: true, flies: false, water: false, legs: 4, pet: true}}
+      - {id: "ani-03", emoji: "🐟", ar: "سمكة", en: "Fish", tags: {fur: false, flies: false, water: true, legs: 0, pet: true}}
+      - {id: "ani-04", emoji: "🐦", ar: "عصفورة", en: "Bird", tags: {fur: false, flies: true, water: false, legs: 2, pet: true}}
+      - {id: "ani-05", emoji: "🦁", ar: "أسد", en: "Lion", tags: {fur: true, flies: false, water: false, legs: 4, pet: false}}
+      - {id: "ani-06", emoji: "🐪", ar: "جمل", en: "Camel", tags: {fur: true, flies: false, water: false, legs: 4, pet: false}}
+      - {id: "ani-07", emoji: "🐄", ar: "بقرة", en: "Cow", tags: {fur: true, flies: false, water: false, legs: 4, pet: false}}
+      - {id: "ani-08", emoji: "🐰", ar: "أرنب", en: "Rabbit", tags: {fur: true, flies: false, water: false, legs: 4, pet: true}}
+      - {id: "ani-09", emoji: "🐢", ar: "سلحفاة", en: "Turtle", tags: {fur: false, flies: false, water: true, legs: 4, pet: true}}
+      - {id: "ani-10", emoji: "🦋", ar: "فراشة", en: "Butterfly", tags: {fur: false, flies: true, water: false, legs: 6, pet: false}}
+      - {id: "ani-11", emoji: "🐊", ar: "تمساح", en: "Crocodile", tags: {fur: false, flies: false, water: true, legs: 4, pet: false}}
+      - {id: "ani-12", emoji: "🐴", ar: "حصان", en: "Horse", tags: {fur: true, flies: false, water: false, legs: 4, pet: false}}
+
+  - id: scenarios
+    title_ar: نعمل إيه؟
+    title_en: What Should We Do?
+    color: "#DB2777"
+    session: 8
+    cards:
+      - {id: "sce-01", emoji: "📸", ar: "تطبيق عايز صورة وشك علشان يلعب معاك. تبعت؟", en: "An app wants a photo of your face to play. Send it?", hint_ar: "نسأل بابا أو ماما الأول"}
+      - {id: "sce-02", emoji: "🤖", ar: "روبوت قال إن القطة كلب. هو دايماً صح؟", en: "A robot said a cat is a dog. Is it always right?", hint_ar: "لا، الذكاء الاصطناعي بيغلط، ولازم نتأكد"}
+      - {id: "sce-03", emoji: "🏠", ar: "مساعد صوتي سألك عنوان بيتكم. تقوله؟", en: "A voice assistant asks your home address. Tell it?", hint_ar: "لا، العنوان سر بيقوله الكبار بس"}
+      - {id: "sce-04", emoji: "🎨", ar: "الذكاء الاصطناعي رسم لك صورة. ينفع تقول إنك إنت اللي رسمتها؟", en: "AI drew a picture for you. Can you say you drew it?", hint_ar: "لا، نقول الحقيقة: الكمبيوتر ساعدني"}
+      - {id: "sce-05", emoji: "🍏", ar: "روبوت اتعلم على تفاح أحمر بس. هيعرف التفاح الأخضر؟", en: "A robot only learned red apples. Will it know green ones?", hint_ar: "غالباً لا، لازم نعلّمه أمثلة متنوعة"}
+      - {id: "sce-06", emoji: "📚", ar: "ممكن الذكاء الاصطناعي يعمل لك الواجب كله؟", en: "Can AI do all your homework?", hint_ar: "يساعدك تفهم، بس إنت اللي بتتعلم"}
+      - {id: "sce-07", emoji: "🧑‍🤝‍🧑", ar: "لعبة ذكية بتختار نفس الولد يكسب كل مرة. ده عادل؟", en: "A smart game always picks the same kid to win. Fair?", hint_ar: "لا، لازم نقول للكبار علشان يصلحوها"}
+      - {id: "sce-08", emoji: "🌍", ar: "إزاي الذكاء الاصطناعي يساعد الناس؟", en: "How can AI help people?", hint_ar: "مثلاً: يساعد الدكتور، يترجم، يوفّر مية للزرع"}

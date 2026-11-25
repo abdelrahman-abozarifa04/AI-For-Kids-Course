@@ -1,0 +1,15 @@
+name: 🐞 Mistake or bug · غلطة
+description: A typo, wrong fact, broken notebook, or a card that prints badly.
+labels: [bug]
+body:
+  - type: input
+    id: where
+    attributes:
+      label: Where · فين؟
+      placeholder: "notebooks/teens/term-2/05-simple-models.ipynb, cell 12"
+    validations: {required: true}
+  - type: textarea
+    id: what
+    attributes:
+      label: What's wrong · إيه المشكلة؟
+    validations: {required: true}
