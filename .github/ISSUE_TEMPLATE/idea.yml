@@ -1,0 +1,15 @@
+name: 💡 Idea or contribution · فكرة
+description: New session, card deck, notebook, or translation.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Idea · الفكرة
+    validations: {required: true}
+  - type: checkboxes
+    id: help
+    attributes:
+      label: Can you help build it? · تقدر تساعد؟
+      options:
+        - label: Yes, I'd like to open a PR · أيوه

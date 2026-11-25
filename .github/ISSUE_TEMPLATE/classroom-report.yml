@@ -1,0 +1,34 @@
+name: 🧑‍🏫 Classroom report · جربت المنهج في فصل
+description: Tell us how a session or unit went with real learners.
+labels: [classroom-feedback]
+body:
+  - type: dropdown
+    id: track
+    attributes:
+      label: Track · المسار
+      options: ["Kids 6–9 · الأطفال", "Teens 15–18 · الشباب"]
+    validations: {required: true}
+  - type: input
+    id: lesson
+    attributes:
+      label: Session / unit · الحصة أو الوحدة
+      placeholder: "Session 5 · مين زوزو؟"
+    validations: {required: true}
+  - type: input
+    id: context
+    attributes:
+      label: Context · السياق
+      description: Number of learners, ages, country/city, school or center (no names of children please).
+      placeholder: "18 students, ages 7–8, Cairo, after-school center"
+  - type: textarea
+    id: worked
+    attributes:
+      label: What worked · إيه اللي نجح؟
+  - type: textarea
+    id: struggled
+    attributes:
+      label: What didn't · إيه اللي ما نجحش أو احتاج وقت أكتر؟
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested change · اقتراح

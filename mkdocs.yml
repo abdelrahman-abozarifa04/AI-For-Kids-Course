@@ -1,0 +1,83 @@
+site_name: الذكاء الاصطناعي للأطفال والشباب
+site_description: منهج مفتوح بالعربي لتعليم الذكاء الاصطناعي من سن ٦ لـ ١٨ سنة
+site_author: Abdelrahman Sami
+site_url: https://abdelrahman-abozarifa04.github.io/ai-for-kids-course/
+repo_url: https://github.com/abdelrahman-abozarifa04/ai-for-kids-course
+repo_name: ai-for-kids-course
+edit_uri: edit/main/docs/
+copyright: الكود MIT · المحتوى CC BY 4.0
+
+theme:
+  name: material
+  language: ar
+  direction: rtl
+  font:
+    text: Cairo
+    code: Fira Code
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: الوضع الليلي
+    - scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: الوضع النهاري
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+
+nav:
+  - الرئيسية:
+      - index.md
+      - English: en.md
+  - الأطفال (٦–٩):
+      - kids/index.md
+      - دليل المدرس: kids/teacher-guide.md
+      - الحصص:
+          - "١ · ذكي ولا مش ذكي؟": kids/session-01.md
+          - "٢ · الروبوت بيسمع الكلام": kids/session-02.md
+          - "٣ · صياد الأنماط": kids/session-03.md
+          - "٤ · سوبر ماركت الترتيب": kids/session-04.md
+          - "٥ · مين زوزو؟": kids/session-05.md
+          - "٦ · الروبوت اللي اتعلم غلط": kids/session-06.md
+          - "٧ · لعبة الأسئلة": kids/session-07.md
+          - "٨ · الذكاء الاصطناعي وإحنا": kids/session-08.md
+  - الشباب (١٥–١٨):
+      - teens/index.md
+      - دليل المدرس: teens/teacher-guide.md
+      - "التيرم ١ · Python والبيانات": teens/term-1.md
+      - "التيرم ٢ · تعلّم الآلة": teens/term-2.md
+      - "التيرم ٣ · AI في الشغل": teens/term-3.md
+      - "التيرم ٤ · المشروع النهائي": teens/term-4.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - assets/extra.css
+
+plugins:
+  - search
