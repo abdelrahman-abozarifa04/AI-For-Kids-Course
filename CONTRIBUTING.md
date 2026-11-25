@@ -54,6 +54,15 @@
 - كل كارت: `id` فريد، `emoji`، `ar`، `en`. اختياري: `hint_ar`، `answer_ar`، `tags`.
 - بعد التعديل: `python tools/build_cards.py --check` وبعدين `python tools/build_cards.py --pdf`.
 
+## نشر الموقع
+
+الموقع بيتنشر من branch اسمه `gh-pages`. بعد ما الـ PR يتعمله merge، المشرف بيشغّل:
+
+```bash
+python tools/build_cards.py --pdf
+mkdocs gh-deploy --force
+```
+
 ## الترخيص
 
 بمساهمتك، إنت موافق إن الكود يتنشر تحت MIT والمحتوى تحت CC BY 4.0.

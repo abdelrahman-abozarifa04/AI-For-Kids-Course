@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this curriculum in teaching or research, please cite it as below."
+title: "AI-For-Kids-Course: an open, Arabic-first AI curriculum for ages 6-18"
+authors:
+  - family-names: Sami
+    given-names: Abdelrahman
+repository-code: "https://github.com/abdelrahman-abozarifa04/ai-for-kids-course"
+url: "https://abdelrahman-abozarifa04.github.io/ai-for-kids-course/"
+license: MIT
+version: 1.0.0
+date-released: 2026-11-25
+keywords:
+  - artificial intelligence
+  - education
+  - curriculum
+  - Arabic
+  - unplugged
