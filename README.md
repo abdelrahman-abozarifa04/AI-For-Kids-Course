@@ -8,7 +8,7 @@
 
 **منهج مفتوح ومجاني بالعربي لتعليم الذكاء الاصطناعي من سن ٦ لـ ١٨ سنة.**
 
-🌐 **الموقع:** https://abdelrahman-abozarifa04.github.io/ai-for-kids-course/
+🌐 **الموقع:** https://abdelrahman-abozarifa04.github.io/AI-For-Kids-Course/
 
 | | 🧩 المستكشفين الصغار (٦–٩) | 🐍 الشباب (١٥–١٨) |
 |---|---|---|
