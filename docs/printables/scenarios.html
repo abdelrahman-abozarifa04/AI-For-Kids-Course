@@ -1,0 +1,33 @@
+<!DOCTYPE html><html lang="ar"><head><meta charset="utf-8"><title>What Should We Do? — printable cards</title><style>
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+@page { size: A4; margin: 10mm; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: 'Cairo', 'DejaVu Sans', 'Noto Color Emoji', sans-serif; color: #1f2937; }
+.sheet { page-break-after: always; break-after: page; }
+.sheet:last-child { page-break-after: auto; break-after: auto; }
+.sheet-header { display: flex; justify-content: space-between; align-items: baseline;
+  font-size: 10pt; color: #6b7280; margin-bottom: 4mm; }
+.grid { display: grid; grid-template-columns: repeat(3, 63mm); grid-auto-rows: 86mm;
+  gap: 0; justify-content: center; }
+.card { position: relative; border: 0.4mm dashed #9ca3af; padding: 4mm; display: flex;
+  flex-direction: column; align-items: center; justify-content: space-between; overflow: hidden; }
+.card .band { position: absolute; inset: 0 0 auto 0; height: 9mm; background: var(--deck);
+  color: #fff; font-size: 8.5pt; font-weight: 700; display: flex; align-items: center;
+  justify-content: center; }
+.card .emoji { margin-top: 10mm; font-size: 30pt; line-height: 1.15; text-align: center;
+  font-family: 'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif; word-break: break-all; }
+.card .emoji.long { font-size: 19pt; }
+.card .ar { font-size: 14pt; font-weight: 700; text-align: center; direction: rtl; line-height: 1.35; }
+.card .ar.small { font-size: 11pt; }
+.card .en { font-size: 8.5pt; color: #6b7280; text-align: center; direction: ltr; }
+.card .hint { font-size: 8pt; color: #374151; text-align: center; direction: rtl;
+  background: #f3f4f6; border-radius: 2mm; padding: 1mm 2mm; }
+.card .answer { font-size: 8pt; color: #6b7280; direction: rtl; text-align: center;
+  transform: rotate(180deg); border-top: 0.3mm dotted #d1d5db; width: 100%; padding-top: 1mm; }
+.card .tag { position: absolute; top: 10.5mm; left: 2mm; font-size: 7pt; font-weight: 700;
+  color: var(--deck); border: 0.3mm solid var(--deck); border-radius: 1mm; padding: 0 1mm; }
+.card .id { position: absolute; bottom: 1mm; left: 2mm; font-size: 6pt; color: #9ca3af; direction: ltr; }
+.footer { text-align: center; font-size: 7pt; color: #9ca3af; margin-top: 3mm; }
+@media screen { body { background: #e5e7eb; } .sheet { background: #fff; width: 210mm;
+  margin: 8mm auto; padding: 10mm; box-shadow: 0 1mm 4mm rgba(0,0,0,.15); } }
+</style></head><body><section class="sheet"><div class="sheet-header"><span>What Should We Do? — Session 8</span><span dir="rtl">نعمل إيه؟ — صفحة 1 من 1</span></div><div class="grid"><div class="card" style="--deck:#DB2777"><div class="band">نعمل إيه؟</div><div class="emoji">📸</div><div class="ar small">تطبيق عايز صورة وشك علشان يلعب معاك. تبعت؟</div><div class="en">An app wants a photo of your face to play. Send it?</div><div class="hint">نسأل بابا أو ماما الأول</div><div class="id">sce-01</div></div><div class="card" style="--deck:#DB2777"><div class="band">نعمل إيه؟</div><div class="emoji">🤖</div><div class="ar small">روبوت قال إن القطة كلب. هو دايماً صح؟</div><div class="en">A robot said a cat is a dog. Is it always right?</div><div class="hint">لا، الذكاء الاصطناعي بيغلط، ولازم نتأكد</div><div class="id">sce-02</div></div><div class="card" style="--deck:#DB2777"><div class="band">نعمل إيه؟</div><div class="emoji">🏠</div><div class="ar small">مساعد صوتي سألك عنوان بيتكم. تقوله؟</div><div class="en">A voice assistant asks your home address. Tell it?</div><div class="hint">لا، العنوان سر بيقوله الكبار بس</div><div class="id">sce-03</div></div><div class="card" style="--deck:#DB2777"><div class="band">نعمل إيه؟</div><div class="emoji">🎨</div><div class="ar small">الذكاء الاصطناعي رسم لك صورة. ينفع تقول إنك إنت اللي رسمتها؟</div><div class="en">AI drew a picture for you. Can you say you drew it?</div><div class="hint">لا، نقول الحقيقة: الكمبيوتر ساعدني</div><div class="id">sce-04</div></div><div class="card" style="--deck:#DB2777"><div class="band">نعمل إيه؟</div><div class="emoji">🍏</div><div class="ar small">روبوت اتعلم على تفاح أحمر بس. هيعرف التفاح الأخضر؟</div><div class="en">A robot only learned red apples. Will it know green ones?</div><div class="hint">غالباً لا، لازم نعلّمه أمثلة متنوعة</div><div class="id">sce-05</div></div><div class="card" style="--deck:#DB2777"><div class="band">نعمل إيه؟</div><div class="emoji">📚</div><div class="ar small">ممكن الذكاء الاصطناعي يعمل لك الواجب كله؟</div><div class="en">Can AI do all your homework?</div><div class="hint">يساعدك تفهم، بس إنت اللي بتتعلم</div><div class="id">sce-06</div></div><div class="card" style="--deck:#DB2777"><div class="band">نعمل إيه؟</div><div class="emoji long">🧑‍🤝‍🧑</div><div class="ar small">لعبة ذكية بتختار نفس الولد يكسب كل مرة. ده عادل؟</div><div class="en">A smart game always picks the same kid to win. Fair?</div><div class="hint">لا، لازم نقول للكبار علشان يصلحوها</div><div class="id">sce-07</div></div><div class="card" style="--deck:#DB2777"><div class="band">نعمل إيه؟</div><div class="emoji">🌍</div><div class="ar small">إزاي الذكاء الاصطناعي يساعد الناس؟</div><div class="en">How can AI help people?</div><div class="hint">مثلاً: يساعد الدكتور، يترجم، يوفّر مية للزرع</div><div class="id">sce-08</div></div></div><div class="footer">AI-For-Kids-Course · CC BY 4.0 · github.com/abdelrahman-abozarifa04/ai-for-kids-course</div></section></body></html>
